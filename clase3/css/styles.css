@@ -1,0 +1,14 @@
+.padre {
+  display: flex;
+  flex-direction: column;
+}
+.cajita {
+  height: 100px;
+  width: 400px;
+  background-color: grey;
+  color: black;
+  border-radius: 15%;
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+}
