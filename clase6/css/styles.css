@@ -1,0 +1,69 @@
+.container {
+  border-radius: 10px;
+  background-color: blueviolet;
+  margin: 10px 0;
+}
+.containerColumn {
+  border-radius: 10px;
+  background-color: blue;
+  margin: 10px 0;
+  width: 1900px;
+  height: 400px;
+}
+.containerFlexRow {
+  display: flex;
+  flex-direction: row;
+}
+.containerFlexRowflexstar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.containerFlexCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.containerFlexRowflexend {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.containerFlexRowspacearound {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cajaRoja {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: red;
+}
+h1 {
+  color: greenyellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.containerFlexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerFlexColumnflexstar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.containerFlexColumnflexend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.containerFlexColumnflexaround {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
