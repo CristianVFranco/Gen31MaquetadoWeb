@@ -1,0 +1,30 @@
+// asi se define una cvaliable para reutilizarla
+// $colorfondo: red;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    li {
+      list-style: none;
+      padding: $espacioContenedor;
+      cursor: pointer;
+    }
+    li:hover {
+      text-decoration: underline;
+    }
+  }
+}
