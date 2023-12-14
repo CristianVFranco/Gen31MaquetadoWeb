@@ -1,30 +1,64 @@
 // asi se define una cvaliable para reutilizarla
 // $colorfondo: red;
-
+$espacioContenedor: 10px 15px;
+$colorgrisfondo: grey;
+$colortextogris: #f1e4e4;
+body {
+  background-color: black;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.seccion,
+.seccion2,
+.seccion3 {
+  background-color: $colorgrisfondo;
+  color: $colortextogris;
+  padding: $espacioContenedor;
+  margin: $espacioContenedor;
+}
 .navbar {
   width: 100%;
+  padding: $espacioContenedor;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-}
-nav {
-  ul {
+  background-color: black;
+  color: $colortextogris;
+
+  main {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
-    li {
-      list-style: none;
-      padding: $espacioContenedor;
-      cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: center;
+    .seccion {
+      width: 50%;
     }
-    li:hover {
-      text-decoration: underline;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-direction: row;
+      gap: 10px;
+      background-color: black;
+      color: $colortextogris;
+      li {
+        list-style: none;
+        padding: $espacioContenedor;
+        cursor: pointer;
+        background-color: black;
+        color: $colortextogris;
+      }
+      li:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
