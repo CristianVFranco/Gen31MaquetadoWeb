@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.seccion,
+.seccion2,
+.seccion3 {
+  background-color: grey;
+  color: #f1e4e4;
+  padding: 10px 15px;
+  margin: 10px 15px;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #f1e4e4;
+}
+.navbar main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navbar main .seccion {
+  width: 50%;
+}
+.navbar nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 10px;
+  background-color: black;
+  color: #f1e4e4;
+}
+.navbar nav ul li {
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: black;
+  color: #f1e4e4;
+}
+.navbar nav ul li:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
